@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Mark JS as available so scroll-reveal hides content only when it can be revealed -->
+    <script>document.documentElement.classList.add('js');</script>
+
+    <title>Rustin Soraki</title>
+    <meta name="description" content="Rustin Soraki is a PhD student in computer vision and vision–language at the Paul G. Allen School of Computer Science &amp; Engineering, University of Washington." />
+    <meta name="author" content="Rustin Soraki" />
+    <link rel="canonical" href="https://rustins.github.io/" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Rustin Soraki" />
+    <meta property="og:description" content="PhD student in computer vision &amp; vision–language at the University of Washington (Paul G. Allen School). 3D &amp; embodied perception, multimodal agents, and computational pathology." />
+    <meta property="og:url" content="https://rustins.github.io/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Rustin Soraki" />
+    <meta name="twitter:description" content="PhD student in computer vision &amp; vision–language at the University of Washington." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+    <!-- Fonts: Fraunces (display) · Hanken Grotesk (body) · JetBrains Mono (mono) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Icons: Font Awesome (Google Scholar uses an inline SVG below — no extra dependency) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Structured data for search engines / scholarly indexing -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Rustin Soraki",
+      "jobTitle": "PhD Student",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Paul G. Allen School of Computer Science & Engineering, University of Washington"
+      },
+      "url": "https://rustins.github.io/",
+      "email": "mailto:rustin@cs.washington.edu",
+      "knowsAbout": ["Computer Vision", "Vision-Language Models", "3D Perception", "Computational Pathology", "Machine Learning"],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=FopDiJkAAAAJ&hl=en",
+        "https://github.com/RustinS",
+        "https://www.linkedin.com/in/rustin-soraki/"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <a class="skip-link" href="#about">Skip to content</a>
+
+    <!-- Inline icon sprite (crisp single-color glyphs, no icon-font dependency) -->
+    <svg aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+        <symbol id="i-scholar" viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.547 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></symbol>
+        <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+        <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></symbol>
+        <symbol id="i-email" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></symbol>
+        <symbol id="i-cv" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></symbol>
+    </svg>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Primary">
+        <div class="nav-inner">
+            <a class="nav-brand" href="#top">
+                <span class="nav-name">Rustin Soraki</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="top">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-inner">
+            <div class="hero-aside reveal">
+                <div class="portrait">
+                    <span class="portrait-mono" aria-hidden="true">RS</span>
+                    <img src="assets/rustin-soraki.jpg" alt="Portrait of Rustin Soraki"
+                         onerror="this.style.display='none';this.closest('.portrait').classList.add('portrait--fallback');" />
+                </div>
+            </div>
+
+            <div class="hero-main">
+                <h1 class="hero-name reveal">Rustin Soraki</h1>
+                <p class="hero-affil reveal">
+                    <span class="affil-line"><span class="affil-role">PhD Student</span> &middot; Paul G. Allen School, University of Washington</span>
+                    <span class="affil-line"><span class="affil-role">Student Researcher</span> &middot; Allen Institute for AI (AI2)</span>
+                </p>
+                <ul class="contact-rail reveal" aria-label="Profiles and links">
+                    <li><a href="https://scholar.google.com/citations?user=FopDiJkAAAAJ&hl=en" aria-label="Google Scholar" title="Google Scholar" target="_blank" rel="noopener"><svg class="ricon" aria-hidden="true"><use href="#i-scholar"></use></svg></a></li>
+                    <li><a href="https://github.com/RustinS" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener"><svg class="ricon" aria-hidden="true"><use href="#i-github"></use></svg></a></li>
+                    <li><a href="https://www.linkedin.com/in/rustin-soraki/" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener"><svg class="ricon" aria-hidden="true"><use href="#i-linkedin"></use></svg></a></li>
+                    <li><a href="mailto:rustin@cs.washington.edu" aria-label="Email" title="Email"><svg class="ricon" aria-hidden="true"><use href="#i-email"></use></svg></a></li>
+                    <!-- CV temporarily hidden until the PDF is updated. Restore this line and drop assets/Rustin_Soraki_CV.pdf to re-enable.
+                    <li><a href="assets/Rustin_Soraki_CV.pdf" aria-label="Curriculum Vitae (PDF)" title="Curriculum Vitae (PDF)"><svg class="ricon" aria-hidden="true"><use href="#i-cv"></use></svg></a></li>
+                    -->
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container">
+                <p class="section-eyebrow"><span class="section-num">01</span> About</p>
+                <div class="about-card">
+                    <p>
+                        I'm a PhD student in the Paul G. Allen School of Computer Science &amp; Engineering
+                        at the University of Washington, where I'm advised by Ali Farhadi. Alongside my PhD,
+                        I'm a Student Researcher at the Allen Institute for AI (AI2). Before coming to Seattle,
+                        I earned my B.Sc. in Computer Engineering from the University of Tehran, where my
+                        interest in computer vision first took shape.
+                    </p>
+                    <p>
+                        My research is in computer vision and machine learning. These days I'm focused on
+                        object dynamics and world models, 3D perception, and vision-language models. At the core,
+                        I want to help machines interpret the visual world and interact with it, building a
+                        grounded, three-dimensional understanding of their surroundings from ordinary video.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research interests -->
+        <section class="section section--alt" id="research">
+            <div class="container">
+                <p class="section-eyebrow"><span class="section-num">02</span> Research</p>
+                <div class="cards">
+                    <article class="card reveal-up">
+                        <span class="card-icon"><i class="fas fa-cube" aria-hidden="true"></i></span>
+                        <h3>3D Perception &amp; Detection</h3>
+                        <p>Locating and understanding objects in 3D from images and video, including promptable, open-world detection.</p>
+                    </article>
+                    <article class="card reveal-up">
+                        <span class="card-icon"><i class="fas fa-bezier-curve" aria-hidden="true"></i></span>
+                        <h3>Object Dynamics &amp; World Models</h3>
+                        <p>Predicting how objects move and interact over time, learned from large-scale human video.</p>
+                    </article>
+                    <article class="card reveal-up">
+                        <span class="card-icon"><i class="fas fa-robot" aria-hidden="true"></i></span>
+                        <h3>Vision-Language &amp; Agents</h3>
+                        <p>Multimodal models and multi-agent systems that perceive, describe, and reason.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- News -->
+        <section class="section" id="news">
+            <div class="container">
+                <p class="section-eyebrow"><span class="section-num">03</span> News</p>
+                <ul class="news">
+                    <li class="news-item reveal-up">
+                        <span class="news-date">Apr 2026</span>
+                        <span class="news-body">
+                            <strong>WildDet3D</strong>, on scaling up promptable 3D detection in the wild.
+                            <a href="https://allenai.github.io/WildDet3D/" target="_blank" rel="noopener">Project</a> &middot;
+                            <a href="https://arxiv.org/abs/2604.08626" target="_blank" rel="noopener">arXiv</a>
+                        </span>
+                    </li>
+                    <li class="news-item reveal-up">
+                        <span class="news-date">Jan 2026</span>
+                        <span class="news-body">
+                            <strong>ObjectForesight</strong>, predicting future 3D object trajectories from human video.
+                            <a href="https://objectforesight.github.io" target="_blank" rel="noopener">Project</a> &middot;
+                            <a href="https://arxiv.org/abs/2601.05237" target="_blank" rel="noopener">arXiv</a>
+                        </span>
+                    </li>
+                    <li class="news-item reveal-up">
+                        <span class="news-date">Jun 2025</span>
+                        <span class="news-body">
+                            <strong>PathFinder</strong> accepted to <strong>ICCV 2025</strong>.
+                            <a href="https://pathfinder-dx.github.io/" target="_blank" rel="noopener">Project</a>
+                        </span>
+                    </li>
+                    <li class="news-item reveal-up">
+                        <span class="news-date">Mar 2025</span>
+                        <span class="news-body">
+                            <strong>CrossFusion</strong>, predicting cancer survival from pathology images.
+                            <a href="https://arxiv.org/abs/2503.02064" target="_blank" rel="noopener">arXiv</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section class="section section--alt" id="publications">
+            <div class="container">
+                <p class="section-eyebrow"><span class="section-num">04</span> Publications</p>
+                <p class="section-intro">
+                    For the full and current list, see my
+                    <a href="https://scholar.google.com/citations?user=FopDiJkAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
+                </p>
+
+                <div class="pub-list">
+                    <!-- WildDet3D -->
+                    <article class="pub reveal-up">
+                        <div class="pub-row">
+                            <h3 class="pub-title"><a href="https://allenai.github.io/WildDet3D/" target="_blank" rel="noopener">WildDet3D: Scaling Promptable 3D Detection in the Wild</a></h3>
+                            <span class="venue-badge">arXiv 2026</span>
+                        </div>
+                        <p class="pub-authors">Weikai Huang, Jieyu Zhang, &hellip;, <span class="me">Rustin Soraki</span>, &hellip;, Ali Farhadi, Ranjay Krishna</p>
+                        <div class="pub-links">
+                            <a class="chip" href="https://allenai.github.io/WildDet3D/" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Project</a>
+                            <a class="chip" href="https://arxiv.org/abs/2604.08626" target="_blank" rel="noopener"><i class="fas fa-file-lines" aria-hidden="true"></i> arXiv</a>
+                            <a class="chip" href="https://github.com/allenai/WildDet3D" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+                        </div>
+                    </article>
+
+                    <!-- ObjectForesight -->
+                    <article class="pub pub--lead reveal-up">
+                        <div class="pub-row">
+                            <h3 class="pub-title"><a href="https://objectforesight.github.io" target="_blank" rel="noopener">ObjectForesight: Predicting Future 3D Object Trajectories from Human Videos</a></h3>
+                            <span class="venue-badge">arXiv 2026</span>
+                        </div>
+                        <p class="pub-authors"><span class="me">Rustin Soraki</span>, Homanga Bharadhwaj, Ali Farhadi, Roozbeh Mottaghi <span class="lead-tag">Lead author</span></p>
+                        <div class="pub-links">
+                            <a class="chip" href="https://objectforesight.github.io" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Project</a>
+                            <a class="chip" href="https://arxiv.org/abs/2601.05237" target="_blank" rel="noopener"><i class="fas fa-file-lines" aria-hidden="true"></i> arXiv</a>
+                            <a class="chip" href="https://github.com/RustinS/ObjectForesight" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+                            <a class="chip" href="https://github.com/RustinS/ObjectForesight-Data" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Data Pipeline</a>
+                            <a class="chip" href="https://huggingface.co/raivn/ObjectForesight-EPIC-DiT" target="_blank" rel="noopener"><i class="fab fa-hugging-face" aria-hidden="true"></i> Model</a>
+                            <a class="chip" href="https://huggingface.co/datasets/raivn/ObjectForesight-EPIC" target="_blank" rel="noopener"><i class="fas fa-database" aria-hidden="true"></i> Data</a>
+                        </div>
+                    </article>
+
+                    <!-- PathFinder -->
+                    <article class="pub reveal-up">
+                        <div class="pub-row">
+                            <h3 class="pub-title"><a href="https://pathfinder-dx.github.io/" target="_blank" rel="noopener">PathFinder: A Multi-Modal Multi-Agent System for Medical Diagnostic Decision-Making Applied to Histopathology</a></h3>
+                            <span class="venue-badge venue-badge--accent">ICCV 2025</span>
+                        </div>
+                        <p class="pub-authors">Fatemeh Ghezloo, Mehmet Saygin Seyfioglu, <span class="me">Rustin Soraki</span>, Wisdom O. Ikezogwo, Beibin Li, Tejoram Vivekanandan, Joann G. Elmore, Ranjay Krishna, Linda Shapiro</p>
+                        <div class="pub-links">
+                            <a class="chip" href="https://pathfinder-dx.github.io/" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i> Project</a>
+                            <a class="chip" href="https://arxiv.org/abs/2502.08916" target="_blank" rel="noopener"><i class="fas fa-file-lines" aria-hidden="true"></i> arXiv</a>
+                            <a class="chip" href="https://openaccess.thecvf.com/content/ICCV2025/html/Ghezloo_PathFinder_A_Multi-Modal_Multi-Agent_System_for_Medical_Diagnostic_Decision-Making_Applied_ICCV_2025_paper.html" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+                        </div>
+                    </article>
+
+                    <!-- CrossFusion -->
+                    <article class="pub pub--lead reveal-up">
+                        <div class="pub-row">
+                            <h3 class="pub-title"><a href="https://arxiv.org/abs/2503.02064" target="_blank" rel="noopener">CrossFusion: A Multi-Scale Cross-Attention Convolutional Fusion Model for Cancer Survival Prediction</a></h3>
+                            <span class="venue-badge">arXiv 2025</span>
+                        </div>
+                        <p class="pub-authors"><span class="me">Rustin Soraki</span>, Huayu Wang, Joann G. Elmore, Linda Shapiro <span class="lead-tag">Lead author</span></p>
+                        <div class="pub-links">
+                            <a class="chip" href="https://arxiv.org/abs/2503.02064" target="_blank" rel="noopener"><i class="fas fa-file-lines" aria-hidden="true"></i> arXiv</a>
+                            <a class="chip" href="https://github.com/RustinS/CrossFusion" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact / Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <p class="footer-eyebrow"><span class="footer-num">05</span> Contact</p>
+            <h2 class="footer-title">Get in touch</h2>
+            <p class="footer-lead">
+                Email is the best way to reach me. I'm always up for talking about
+                research, possible collaborations, or a good problem.
+            </p>
+
+            <div class="footer-email">
+                <a class="footer-email-link" href="mailto:rustin@cs.washington.edu">
+                    <svg class="ricon" aria-hidden="true"><use href="#i-email"></use></svg>
+                    <span>rustin@cs.washington.edu</span>
+                </a>
+                <button class="footer-copy" type="button" data-copy="rustin@cs.washington.edu" aria-label="Copy email address" title="Copy email address">
+                    <i class="fas fa-copy" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <ul class="footer-elsewhere" aria-label="Find me elsewhere">
+                <li><a href="https://scholar.google.com/citations?user=FopDiJkAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
+                <li><a href="https://github.com/RustinS" target="_blank" rel="noopener">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/rustin-soraki/" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+
+            <p class="footer-fine">
+                &copy; <span id="footer-year">2026</span> &middot; Rustin Soraki &middot; Seattle, WA
+            </p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
