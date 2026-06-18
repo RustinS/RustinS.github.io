@@ -619,6 +619,7 @@ a:hover { color: var(--accent-hover); }
     margin-bottom: 9px;
 }
 .pub-authors .me { color: var(--primary-color); font-weight: 700; }
+.pub-eq { color: var(--muted-color); font-size: 0.82em; white-space: nowrap; }
 
 .venue-badge {
     display: inline-block;
